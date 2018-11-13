@@ -13,3 +13,4 @@ if sys.platform == 'linux':
 else:
     print('local is working')
 print(sys.version)
+print(sys.version_info[0])
