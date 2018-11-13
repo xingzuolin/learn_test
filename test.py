@@ -11,12 +11,13 @@ def sub(x, y):
     return x - y
 
 
-print('my os is :', sys.platform)
-if sys.platform == 'linux':
-    print('remote is working')
-else:
-    print('local is working')
-print(sys.version)
-print(sys.version_info[0])
-print(sys.version_info[1])
-print(sub(15, 7))
+if __name__ == '__main__':
+    print('my os is :', sys.platform)
+    if sys.platform == 'linux':
+        print('remote is working')
+    else:
+        print('local is working')
+    print(sys.version)
+    print(sys.version_info[0])
+    print(sys.version_info[1])
+    print(sub(15, 7))
