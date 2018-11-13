@@ -1,0 +1,9 @@
+*.pyc
+*.swp
+*.egg
+coverage.xml
+nosetests.xml
+junit-report.xml
+.cache/
+.coverage
+MANIFEST
