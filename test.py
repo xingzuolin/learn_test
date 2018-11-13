@@ -5,8 +5,11 @@
 # @File    : test.py
 
 import sys
+
+
 print('my os is :', sys.platform)
 if sys.platform == 'linux':
     print('remote is working')
 else:
     print('local is working')
+print(sys.version)
