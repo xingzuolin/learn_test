@@ -13,8 +13,13 @@ def mul(x, y):
     return x * y
 
 
+def dev(x, y):
+    return x/y
+
+
 if __name__ == '__main__':
     a = add(5, 6)
     b = mul(5, 6)
-    c = a + b
+    d = dev(3, 5)
+    c = a + b + d
     print(c)
